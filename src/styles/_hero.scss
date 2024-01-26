@@ -1,10 +1,14 @@
 @use 'variaveis';
 
+
 .hero {
+    align-items: center;
     padding:5.6vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     min-height: 80vh;
     text-align: center;
-    background-size: cover;
 
     @media (max-width:768px){
         padding-top: calc(50vw + 25px);
